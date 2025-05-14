@@ -1,0 +1,35 @@
+#content{
+    display: inline-block;
+    text-align: left;
+}
+
+.jumbotron{
+    margin-top:75px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.jumbotron p{
+    color:red;
+    font-size: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.terms{
+    margin-left:20px;
+    flex-wrap: wrap;
+    border: 2px black solid;
+    margin-top:10px;
+    margin-right:20px;
+}
+h3{
+    margin-left:20px;
+}
+ol li{
+    margin-top:10px;
+}
+
+#terms_container {
+    margin-bottom: 20px;
+}

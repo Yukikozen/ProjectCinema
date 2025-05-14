@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 28 Sep 2019, 11:55:26 AM
+    Author     : fooch
+*/
+
+main {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: darkgrey;
+	padding-top: 70px;
+}
+
+.mainbody {
+    padding-top: 200px;
+}
+
+.checkbox {
+    width: 23px;
+    height: 21px;
+    background: transparent url(http://i.stack.imgur.com/S4p2R.png ) no-repeat 0 50%
+}
+
+.checked {
+    background: transparent url(http://i.stack.imgur.com/S4p2R.png ) no-repeat 80% 50%
+}
+
+.movieposter {
+    float: left;
+    max-height: 200px;
+    width: auto;
+}
+
+.movieheader {
+    padding-left: 200px;
+    font-family: Arial;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.movieinfo {
+    padding-left: 200px;
+    font-style: italic;
+    font-size: 24px;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+.movietimings {
+    padding-left: 145px;
+    font-size: 24px;
+}
+
+.text-left {
+    padding-left: 65px;
+}
+
+.inline-p {
+    display: inline;
+}
+
+.error {
+    color: #F00;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    color: white
+}
+
+.form-control {
+    padding-right: 30px;
+}
+
+.form-control+.glyphicon {
+    position: absolute;
+    right: 0;
+    padding: 8px 27px;
+}
+
+.seat {
+    height: 80px;
+    width: 80px;
+}
+
+.legendimg {
+    height: 20px;
+    width: 20px;
+}
+
+
+/* Screen */
+
+#screen {
+    width: 80%;
+    height: 32px;
+    margin: auto;
+    background-color: black;
+}
+
+
+/* Legend */
+
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 12px;
+    margin: 24px 0 0 0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.legend-content {
+    display: flex;
+    margin-right: 12px;
+}
+
+.legend-seat {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin: 0 8px 0 0px;
+}
+
+.legend-seat-available {
+    background: #0F9D58;
+}
+
+.legend-seat-selected {
+    background: #4285F4;
+}
+
+.legend-seat-taken {
+    background: #DB4437;
+}
+
+
+/* Modal */
+
+.modal-ticket {
+    display: inline;
+}
+
+
+/* Seat */
+
+input[type=checkbox] {
+    display: none;
+}
+
+.seats {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 5% 0 5%;
+}
+
+.seat {
+    margin: 4px;
+    width: 10%;
+    height: 32px;
+    flex: 0 1 calc(10% - 8px);
+}
+
+input[type=checkbox]+label {
+    background: #0F9D58;
+}
+
+input[type=checkbox]:checked+label {
+    background: #4285F4;
+}
+
+input[type=checkbox]:disabled+label {
+    background: #DB4437;
+}

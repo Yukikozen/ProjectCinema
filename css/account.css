@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Nov 2019, 9:02:07 AM
+    Author     : ooiqi
+*/
+
+main{
+    margin-top:75px;
+    color:black;
+}
+
+/*section{
+    background-color:lightslategray;
+}*/
+#maintitle{
+    margin-left:20px;
+}
+.formtitle{
+    margin-left:20px;
+}
+#formtitle2{
+    margin-top:10px;
+    margin-left:20px;
+}
+#formtitle2, .lab, p{
+    color:black;
+}
+
+.lab
+{
+    padding-top:20px;
+    margin-left:20px;
+    font-size:20px;
+    
+}
+p
+{
+    margin-top:20px;
+    margin-left:20px;
+   
+}
+input[type=password], input[type=tel], input[type=submit], #fileToUpload
+{
+    margin-left:20px;
+    margin-bottom:10px;
+}
+#profilepic2{
+    width:20%;
+    border-radius: 50%;
+}
+
+#phone{
+    font-size:20px;
+    padding-top: 30px;
+}
+
+.phonedis{
+    margin-top:5px;
+}
+
+form input[type=submit]
+{
+    background-color:black;
+    color:white;
+    margin-top:30px;
+    margin-bottom: 70px;
+    padding:10px;
+}
